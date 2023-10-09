@@ -1,0 +1,16 @@
+/* #heading{
+    color: blue;
+}
+
+
+1) we saw how we can write a hello world program using just html
+2) then in js
+3) after that we saw how to bring react into our code i:e cdn links
+***what is the react element? => its a object 
+***createElement takes 3 arguments "the name of the tag" {and the attributes} and [ last one is childrens if its more than one than we use an array]
+***this object using reactDOM.createRoot this createRoot is resposible to assign a root
+inside react and when we do root.render this render method helps us to put object to 
+our page... ReactElement(Object) => HTML(Browser Understand)
+*** if we pass in id root(in html page) something like h2 or p tag that is going to replaced by render method
+and if something that is not inside in out root id its going to remain same as it is so that means
+we can use react any part or small part like nav or sidebar and the whole page remains as it is that why its called a library */
